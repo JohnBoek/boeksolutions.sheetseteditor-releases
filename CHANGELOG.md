@@ -5,6 +5,8 @@ Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and th
 ## v1.2.3 (2026-10-06)
 
 - Fixed: new installations now retain their safe upgrade registration so later updates can install in place.
+- Fixed: selecting a sheet no longer fails while loading the property editor's calendar language.
+- Fixed: unexpected interface errors no longer open recursively nested error dialogs.
 - Improved: the installer reports when safe upgrade registration cannot be confirmed after installation completes.
 
 ## v1.2.2 (2026-10-06)

@@ -4,7 +4,7 @@ A Windows desktop tool for viewing and editing AutoCAD Sheet Set (`.dst`) data �
 
 ## ⬇️ Download
 
-Grab the latest installer from **[Releases](../../releases/latest)**. Run the `.exe` and follow the wizard. New installations request administrator rights by default so the application and AutoCAD bundle can be installed for all users.
+Grab the latest installer from **[Releases](../../releases/latest)**. Run the `.exe` and follow the wizard. Installation and uninstallation require administrator rights. The application and optional AutoCAD bundle are installed for all users.
 
 ## What it does
 
@@ -28,6 +28,8 @@ Grab the latest installer from **[Releases](../../releases/latest)**. Run the `.
 ## Updates
 
 The app checks for new versions on startup and prompts you when one's available — no manual downloading required after your first install.
+
+Upgrading from version 1.2.2 or earlier can require a one-time uninstall. If the installer reports an older installation that cannot be upgraded safely, close the editor and AutoCAD first. Move any personal files out of the application and plug-in installation folders before uninstalling: older uninstallers may delete those folders completely. Uninstall the old copy through Windows Settings, then run the new installer. Settings and licence data stored outside those installation folders are retained.
 
 ## Security
 
