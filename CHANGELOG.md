@@ -2,6 +2,11 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.3 (2026-10-06)
+
+- Fixed: new installations now retain their safe upgrade registration so later updates can install in place.
+- Improved: the installer reports when safe upgrade registration cannot be confirmed after installation completes.
+
 ## v1.2.2 (2026-10-06)
 
 - Improved: installation and uninstallation now consistently require administrator rights and install for all Windows users.
