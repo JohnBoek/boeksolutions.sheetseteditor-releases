@@ -2,6 +2,16 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.2 (2026-10-06)
+
+- Improved: installation and uninstallation now consistently require administrator rights and install for all Windows users.
+- Improved: uninstalling removes installed application and AutoCAD plug-in files while preserving additional personal files, app settings, and licence state.
+- Improved: older per-user installations and installations with legacy folder cleanup require a one-time uninstall before upgrading. The installer explains how to protect personal files before removing the old version.
+- Improved: English is the default for new installations, and dialogs, property editors, and the import wizard follow the selected interface language.
+- Added: the AutoCAD 2027 ribbon now includes a BoekSolutions button to start the editor with `SSMBE`.
+- Fixed: edits to empty custom properties are now saved correctly even when AutoCAD omitted their value from the sheet set.
+- Fixed: relative drawing and sheet-storage paths are now resolved from the original sheet-set folder when opening a `.dst` file.
+
 ## v1.2.1 (2026-09-23)
 
 - Improved: the Autodesk Marketplace name is now BoekSolutions Sheet Set Batch Editor, while existing executable names, settings, licences, and update links remain compatible.
