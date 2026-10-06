@@ -2,6 +2,13 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.4 (2026-10-06)
+
+- Fixed: the AutoCAD 2027 plug-in now installs in the supported Program Files location, so its commands and ribbon button can load automatically.
+- Fixed: the editor's book icon appears in the BoekSolutions panel under AutoCAD's Add-ins tab, supplied through the required partial CUIX.
+- Added: SSMUI launches the editor and uses the same book icon; SSMBE and the existing SSM_UI alias remain available.
+- Improved: updates retain the installer's ownership of files in the previous plug-in location, while preserving additional personal files during uninstall.
+
 ## v1.2.3 (2026-10-06)
 
 - Fixed: new installations now retain their safe upgrade registration so later updates can install in place.
