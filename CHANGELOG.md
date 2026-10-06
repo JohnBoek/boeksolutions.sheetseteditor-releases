@@ -6,6 +6,7 @@ Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and th
 
 - Fixed: new installations now retain their safe upgrade registration so later updates can install in place.
 - Fixed: selecting a sheet no longer fails while loading the property editor's calendar language.
+- Fixed: calendar dates follow the configured date format, preventing day and month swaps across Windows language settings.
 - Fixed: unexpected interface errors no longer open recursively nested error dialogs.
 - Improved: the installer reports when safe upgrade registration cannot be confirmed after installation completes.
 
