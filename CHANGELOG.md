@@ -2,6 +2,25 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.6 (2026-10-16)
+
+- Fixed: pressing F1 while hovering over the AutoCAD ribbon button opens the included application help.
+- Fixed: AutoNumber and Apply keep the affected sheets selected and highlighted, including the anchor for subsequent Shift-selection.
+- Improved: includes the language consistency and unsaved-change protection updates from version 1.2.5.
+
+## v1.2.5 (2026-10-07)
+
+- Fixed: license status and update information now change immediately with the selected interface language.
+- Fixed: the AutoCAD ribbon follows a language choice saved in the standalone editor without restarting AutoCAD.
+- Fixed: layout-import tooltips, filename prefixes, file filters and support-email drafts follow the selected language.
+- Fixed: import preview warnings, field-rule summaries and property-type labels use consistent translated text.
+- Fixed: confirmation-dialog buttons follow the app language instead of the Windows language.
+- Improved: corrected untranslated labels and inconsistent wording across the supported languages.
+- Improved: new installations select the optional desktop shortcut by default; upgrades retain the previous task selection.
+- Improved: unsaved view edits offer retain, discard-current-view-only or cancel; opening another file and closing offer save, discard or cancel.
+- Improved: saving no longer shows a modal reminder solely because AutoCAD is running; actual file locks remain respected.
+- Fixed: unnamed-item captions in the tree and import screens follow the selected language without changing user names.
+
 ## v1.2.4 (2026-10-06)
 
 - Fixed: the AutoCAD 2027 plug-in now installs in the supported Program Files location, so its commands and ribbon button can load automatically.
