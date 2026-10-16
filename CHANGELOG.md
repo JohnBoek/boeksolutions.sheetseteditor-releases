@@ -2,6 +2,12 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.8 (2026-10-16)
+
+- Added: press F1 in the standalone editor or its dialogs to open the offline user guide.
+- Added: a visible Help button next to Options and a Help entry in the file menu.
+- Fixed: the standalone installation now includes the same complete Dutch/English offline guide as the AutoCAD integration.
+
 ## v1.2.7 (2026-10-16)
 
 - Added: a complete offline user guide in Dutch and English, available from the AutoCAD ribbon with F1.
