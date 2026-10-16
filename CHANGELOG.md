@@ -2,6 +2,12 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.2.7 (2026-10-16)
+
+- Added: a complete offline user guide in Dutch and English, available from the AutoCAD ribbon with F1.
+- Added: practical examples for smart field groups, choice lists, field links and mirroring, text formulas and smart folders.
+- Improved: clear navigation, light and dark styling, a printable layout and BoekSolutions branding in the help page.
+
 ## v1.2.6 (2026-10-16)
 
 - Fixed: pressing F1 while hovering over the AutoCAD ribbon button opens the included application help.
