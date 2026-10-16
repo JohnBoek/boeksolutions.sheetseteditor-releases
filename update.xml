@@ -7,10 +7,10 @@
   published installer's app version (App/SheetSetEditor.App.csproj <Version> at build time),
   and <url> must point at that exact installer asset on this repo's Releases page.
 
-  Current state: v1.2.7 is LIVE (2026-10-16). GitHub latest metadata confirms the
+  Current state: v1.2.8 is LIVE (2026-10-16). GitHub latest metadata confirms the
   SheetSetEditor-Setup.exe asset. Unauthenticated HEAD returned 200 and Content-Length
-  63039840; the full public download also matched the tested installer's byte size and
-  SHA-256 1627086608112912a2a832dad41c0cf5a7ee1f62f21612595d3847dad93d2e62.
+  64785088; the full public download also matched the tested installer's byte size and
+  SHA-256 b1c739f5190c4c9c679cb59469468e9548620493dfa97d85540de361319a3d09.
   These checks completed before updating the version below.
 
   2026-07-10: the v1.1.11 tag briefly had the wrong asset attached (LibSync-Setup.exe, a
@@ -40,7 +40,7 @@
   after the asset got renamed post-publish.
 -->
 <item>
-    <version>1.2.7</version>
+    <version>1.2.8</version>
     <url>https://github.com/JohnBoek/boeksolutions.sheetseteditor-releases/releases/latest/download/SheetSetEditor-Setup.exe</url>
     <changelog>https://github.com/JohnBoek/boeksolutions.sheetseteditor-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
