@@ -2,6 +2,15 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.3.0 (2026-10-22)
+
+- Added: keep multiple sheet sets open and switch through Open documents in the file menu, with one sheet set in the foreground.
+- Added: open several sheet sets at once; each keeps its own selection, expanded tree and unsaved changes.
+- Fixed: the AutoCAD launcher uses the sheet set selected in Sheet Set Manager instead of choosing the first opened sheet set.
+- Fixed: closing the editor checks all modified open sheet sets before exiting.
+- Improved: clearer menu hover highlights in Book, Light and Dark themes, with a contrasting outline.
+- Improved: updated Dutch and English offline instructions for working with multiple sheet sets.
+
 ## v1.2.8 (2026-10-16)
 
 - Added: press F1 in the standalone editor or its dialogs to open the offline user guide.
