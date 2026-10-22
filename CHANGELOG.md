@@ -2,6 +2,11 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.3.1 (2026-10-22)
+
+- Fixed: the installed app now reports the correct version, preventing repeated update prompts after installing 1.3.0.
+- Improved: includes multiple open sheet sets, active AutoCAD sheet set detection and clearer menu hover from 1.3.0.
+
 ## v1.3.0 (2026-10-22)
 
 - Added: keep multiple sheet sets open and switch through Open documents in the file menu, with one sheet set in the foreground.
