@@ -2,6 +2,15 @@
 
 Release notes for BoekSolutions.SheetSetEditor, in sync with `update.xml` and the version tags on this repo's [Releases](../../releases) page.
 
+## v1.4.0 (2026-11-13)
+
+- Added: sign in from the app with your BoekSolutions email and password.
+- Added: link an existing purchase from your license email.
+- Added: switch computers by closing the app on the first computer and retrying on the second.
+- Added: use a valid cached license during a temporary connection loss.
+
+The installer includes the AutoCAD 2027 add-in and the standalone editor.
+
 ## v1.3.1 (2026-10-22)
 
 - Fixed: the installed app now reports the correct version, preventing repeated update prompts after installing 1.3.0.
